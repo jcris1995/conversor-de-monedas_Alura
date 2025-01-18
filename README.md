@@ -2,53 +2,57 @@
   <img src=https://github.com/DavidVF7/Conversor-de-Monedas/assets/103916971/645bfae6-38cf-4f90-add7-8f9b3929cb5a"
 </p>
 
-# Conversor de Monedas 💵💱💶
+# Conversor de Monedas
+💵 💱 💶
+Una herramienta práctica y eficiente para convertir divisas en tiempo real.
 
-Desarrollado como parte del Challenge Conversor de Monedas, propuesto por Alura Latam en colaboración con Oracle en el programa ONE, como parte de la especialización Back-End.
+Creado como parte del desafío "Conversor de Monedas", planteado por Alura Latam en conjunto con Oracle dentro del programa ONE, como parte de la especialización en Back-End.
 
-## Descripción 📝
+## Descripción de proyecto 📝
 
-Este proyecto es un Conversor de Monedas desarrollado en Java que te permite convertir diferentes divisas utilizando una API de tasas de cambio en tiempo real. Con este conversor, se pueden realizar solicitudes a la API, analizar la respuesta JSON, filtrar las monedas de interés y mostrar los resultados a los usuarios de manera clara y concisa. Además, la aplicación guarda un historial de conversiones que incluye una marca de tiempo para cada consulta, lo que permite al usuario realizar un seguimiento de sus conversiones anteriores y ver cuándo y a qué hora se realizaron.
+Este proyecto es un Conversor de Monedas desarrollado en Java, diseñado para realizar conversiones de divisas en tiempo real utilizando una API de tasas de cambio actualizadas. Su funcionalidad permite a los usuarios:
+
+*Solicitar y procesar datos de tasas de cambio desde una API externa.
+*Convertir diversas monedas de forma rápida y precisa.
+*Visualizar un historial detallado de conversiones, incluyendo la fecha y hora de cada consulta.
+*El proyecto destaca por su interfaz clara, su estructura optimizada para facilitar el mantenimiento y su capacidad de adaptarse a nuevos requerimientos, siendo una solución ideal para gestionar conversiones monetarias de manera eficiente.
 
 ## Tecnologías Utilizadas 💻
 
-- **Lenguaje de Programación:** Java
-- **API de Tasas de Cambio:** Se utilizó una API de tasas de cambio en tiempo real para obtener las tasas de conversión entre diferentes divisas.
-- **Biblioteca Gson:** Gson se empleó para analizar la respuesta JSON de la API y convertirla en objetos Java para su manipulación.
-- **Control de Versiones:** Git/GitHub se usaron para el control de versiones del proyecto y la colaboración en equipo.
-- **Entorno de Desarrollo Integrado (IDE):** IntelliJ IDEA fue el entorno de desarrollo utilizado para escribir, depurar y ejecutar el código Java.
+*Lenguaje de Programación: Java, utilizado para el desarrollo principal de la aplicación.
+*API de Tasas de Cambio: API en tiempo real para obtener las tasas de conversión entre diferentes divisas.
+*Biblioteca Gson: Empleada para analizar y procesar las respuestas JSON de la API, transformándolas en objetos Java.
+*Control de Versiones: Git y GitHub para gestionar el versionado del proyecto y la colaboración en equipo.
+*IDE (Entorno de Desarrollo Integrado): IntelliJ IDEA, utilizado para escribir, depurar y ejecutar el código del proyecto.
+*Estas tecnologías permiten garantizar una aplicación robusta, eficiente y fácil de mantener.
 
 ## Clases y Funcionalidades 🧩
 
 ### Calculos.java
 
-Esta clase es responsable de manejar la lógica relacionada con las conversiones de moneda. Aquí se definen métodos para almacenar valores de moneda, realizar conversiones y obtener mensajes de respuesta.
+se encarga de gestionar la lógica principal vinculada a las conversiones de divisas. Incluye métodos para almacenar los valores asociados a las monedas, ejecutar las conversiones entre ellas y generar mensajes de respuesta adecuados para los usuarios.
 
 ### ConsultaConversion.java
 
-Clase responsable de realizar consultas a una API externa para obtener las tasas de cambio entre diferentes monedas.
+Se encarga de realizar solicitudes a una API externa para obtener las tasas de cambio actualizadas entre distintas divisas.
 
 ### GeneradorDeArchivos.java
 
-Esta clase se encarga de guardar el historial de consultas en un archivo de texto.
+Clase responsable de almacenar el historial de consultas en un archivo de texto, permitiendo registrar las conversiones realizadas para su posterior consulta.
 
 ### Principal.java
 
-El punto de entrada principal del programa. Aquí se maneja la interacción con el usuario a través de la consola, mostrando un menú de opciones y gestionando las conversiones de moneda.
+El punto de entrada principal del programa. Esta clase gestiona la interacción con el usuario a través de la consola, presentando un menú de opciones y coordinando las operaciones necesarias para realizar las conversiones de moneda.
 
-## 👨‍💻 Desarrollado por
-- David Velasco Fierros
+## 👨‍💻 Desarrollador de proyecto:
 
-## Instrucciones de Uso 🚀
+Jean Cristian Valencia García 
 
-1. Clona este repositorio en tu máquina local.
-2. Abre el proyecto en IntelliJ IDEA u otro IDE de tu elección.
-3. Ejecuta la clase Principal.java para iniciar el programa.
-4. Sigue las instrucciones en pantalla para realizar conversiones de moneda.
+## Instrucciones de uso: 
 
-¡Disfruta convirtiendo monedas!
+*Clona este repositorio en tu máquina local.
+*Abre el proyecto en IntelliJ IDEA o en el IDE de tu preferencia.
+*Ejecuta la clase Principal.java para iniciar la aplicación.
+*Sigue las instrucciones que aparecerán en la consola para realizar las conversiones de moneda.
 
-## ¿Cómo funciona? 🎥
-Aquí puedes ver una demostración visual de cómo funciona el proyecto:
-
-[Demostración del proyecto](https://youtu.be/a42KEl1l0kY)
+¡Disfruta usando el conversor de monedas!
